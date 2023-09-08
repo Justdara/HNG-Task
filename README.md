@@ -11,7 +11,7 @@ Welcome to my HNG Internship profile card project! In this project, I've created
 
 ## Demo
 
-You can view a live demo of my profile card [here](https://your-demo-link.com).
+You can view a live demo of my profile card [here](https://justdara.github.io/HNG-Task/).
 
 ## Features
 
