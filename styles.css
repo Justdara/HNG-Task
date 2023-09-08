@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 32px;
+  background-color: #493434;
+}
+
+.profile-card {
+  width: 400px;
+  background-color: #b49999;
+  border: 1px solid rgb(209, 200, 200);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 16px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.profile img {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+p[data-testid="slackUserName"] {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p[data-testid="myTrack"] {
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.details {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.details a {
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.5s;
+  color: black;
+}
+
+.details a:hover {
+  color: blue;
+}
